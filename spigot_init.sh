@@ -19,7 +19,7 @@ if [ ! -f /$SPIGOT_HOME/spigot.jar ]; then
   HOME=/$SPIGOT_HOME/build java -jar BuildTools.jar
   cp /$SPIGOT_HOME/build/Spigot/Spigot-Server/target/spigot-1.*.jar /$SPIGOT_HOME/spigot.jar
 
-  #accept eola
+  #accept eula
   echo "eula=true" > /$SPIGOT_HOME/eula.txt
 
 fi
